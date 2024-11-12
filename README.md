@@ -1,6 +1,6 @@
 # Simple MIDI File Parser and Synthesizer  
 
-This project provides a basic MIDI file parser and synthesizer, created with the help of ChatGPT. It is designed as an educational tool to help users understand the structure of MIDI files and the fundamentals of sound synthesis.  
+This project provides a basic MIDI file parser and synthesizer, created with the help of ChatGPT. It is designed as an educational project to help users understand the structure of MIDI files and the fundamentals of sound synthesis.  
 
 ## Key Features  
 - **MIDI File Parsing**:  
