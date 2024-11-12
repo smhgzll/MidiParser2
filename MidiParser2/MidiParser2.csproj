@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Update="Samples\another_one_bites_the_dust.mid">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+      <None Update="Samples\coldplay-clocks.mid">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="OpenTK">
+        <HintPath>..\..\..\..\.nuget\packages\opentk.netstandard\1.0.5.32\lib\netstandard2.1\OpenTK.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
